@@ -43,5 +43,6 @@ Per seguire questo script basta il comando `./autoLike.py`
 <h3>AutoPost</h3>
 Questo script prende gli ultimi post presenti nella tabella post e li condivide.<br>
 Per eseguire lo script basta lanciare il comando `./autoPost.py numero_post`<br>
-Richiede un argomento: <b>numero di post da condividere</b>, se non passato ne il numero di post sarà impostato a 10 ( per evitare di essere bloccati per samp !)
+Richiede un argomento: <b>numero di post da condividere</b>, se non passato ne il numero di post sarà impostato a 10
+<br>( per evitare di essere bloccati per spam !)
 <br>
