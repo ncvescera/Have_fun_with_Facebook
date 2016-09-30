@@ -1,5 +1,12 @@
 #!/bin/bash
 
+if [ $# -eq 0 ]
+then
+	echo "Argomenti passati 0, richiesti 1"
+	echo "./watchFB id_pagina"
+	exit
+fi
+
 echo "Getting Access Token ..."
 ./getAccessToken.sh
 echo "Decoding Access Token ..."
@@ -13,8 +20,4 @@ echo "Posts: "
 ./parseData.py
 echo "Distinct Table ..."
 ./distinctTable.py
-echo "Done !"
-echo "Sharing posts ..."
-#cd autoPost
-#./autoPost.py
 echo "Done !"
