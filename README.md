@@ -23,3 +23,6 @@ Utils per facebook
   <h2>Run</h2>
   `./watchFB.sh id_pagina_facebook`<br>Richiede un solo argomento: l' <b>id della pagina di facebook</b> o il <b>nome</b><br>
   Esempio: `./watchFB.sh SessoDrogaPastorizia`
+<br><br>
+Dopo l'esecuzione dello script principale troverai nella tabella gli ultimi 100 post della pagina che hai scelto.<br>
+Se sono presenti post doppi ti basta eseguire il file distinctTable.py `./distinctTable.py` e verranno eliminati i post in più.<br>
