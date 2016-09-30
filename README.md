@@ -20,9 +20,22 @@ Utils per facebook
   <li>Account su facebook developers</li>
   </ul>
   
+  <h2>Prima di iniziare</h2>
+  Prima di eseguire i vari script devi prima compilare i vari file di configurazione.
+  <table>
+  <tr><th>Nome</th><th>Descrizione</th><th>Serve per</th></tr>
+  <tr><td>tempToken</td><td>Ti basta inserire qui il token temporaneo senza spazi e ritorni a capo</td><td>autoLike e autoPost</td></tr>
+  <tr><td>connectDB.py</td><td>Inserisci i dati nella stringa accanto ai relativi nomi. Ti basta solo modificare il primo file e gli altri verranno modificati in automatico<br>( sono collegamenti )</td><td>tutti gli script python che si connettono al database</td></tr>
+  <tr><td>credentialToken.sh</td><td>Inserisci i dati per richiedere l'access token<br>(ti serve un app che puoi creare sulla pagina facebook developer)</td><td>tutti gli script sh che richiedono post a facebook</td>
+  </table>
+  
   <h2>Run</h2>
+  <h3>Script principale</h3>
   `./watchFB.sh id_pagina_facebook`<br>Richiede un solo argomento: l' <b>id della pagina di facebook</b> o il <b>nome</b><br>
   Esempio: `./watchFB.sh SessoDrogaPastorizia`
 <br><br>
 Dopo l'esecuzione dello script principale troverai nella tabella gli ultimi 100 post della pagina che hai scelto.<br>
-Se sono presenti post doppi ti basta eseguire il file distinctTable.py `./distinctTable.py` e verranno eliminati i post in più.<br>
+Se sono presenti post doppi ti basta eseguire il file distinctTable.py `./distinctTable.py` e verranno eliminati i post in più.<br><br>
+<h3>AutoLike</h3>
+Questo script mette like a tutti i post presenti nella tabella post che verrà riempita con l'esecuzione dello script precedente.<br>
+Per seguire questo script basta il comando `./autoLike.py`
