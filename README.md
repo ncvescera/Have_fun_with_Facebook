@@ -19,3 +19,7 @@ Utils per facebook
   <li>PsycoPg2</li>
   <li>Account su facebook developers</li>
   </ul>
+  
+  <h2>Run</h2>
+  `./watchFB.sh id_pagina_facebook`<br>Richiede un solo argomento: l' <b>id della pagina di facebook</b> o il <b>nome</b><br>
+  Esempio: `./watchFB.sh SessoDrogaPastorizia`
