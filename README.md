@@ -39,3 +39,9 @@ Se sono presenti post doppi ti basta eseguire il file distinctTable.py `./distin
 <h3>AutoLike</h3>
 Questo script mette like a tutti i post presenti nella tabella post che verrà riempita con l'esecuzione dello script precedente.<br>
 Per seguire questo script basta il comando `./autoLike.py`
+
+<h3>AutoPost</h3>
+Questo script prende gli ultimi post presenti nella tabella post e li condivide.<br>
+Per eseguire lo script basta lanciare il comando `./autoPost.py numero_post`<br>
+Richiede un argomento: <b>numero di post da condividere</b>, se non passato ne il numero di post sarà impostato a 10 ( per evitare di essere bloccati per samp !)
+<br>
